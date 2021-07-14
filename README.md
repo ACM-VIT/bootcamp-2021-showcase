@@ -1,6 +1,6 @@
 ![ACM-HEADER](https://user-images.githubusercontent.com/14032427/92643737-e6252e00-f2ff-11ea-8a51-1f1b69caba9f.png)
 
-<h1 align="center"> PROJECT TITLE </h1>
+<h1 align="center">  Getting Started with Create React App  </h1>
 
 <p align="center"> 
 Short description about the project.
@@ -39,6 +39,50 @@ git merge
 ```
 
 ---
+
+## Contribution Guidelines
+
+
+**1.**  Fork [this](https://github.com/ACM-VIT/bootcamp-2021-showcase.git) repository.
+
+**2.**  Clone your forked copy of the project.
+
+```
+git clone https://github.com/<your_user_name>/bootcamp-2021-showcase.git
+```
+
+**3.** Navigate to the project directory .
+
+```
+cd bootcamp-2021-showcase
+```
+
+**4.** Add a reference(remote) to the original repository.
+
+```
+git remote add upstream https://github.com/ACM-VIT/bootcamp-2021-showcase.git 
+```
+
+**5.** Check the remotes for this repository.
+
+```
+git remote -v
+```
+
+**6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
+
+```
+git pull upstream master
+```
+
+**7.** Create a new branch.
+
+```
+git checkout -b <your_branch_name>
+```
+
+**8.** Perform your desired changes to the code base.
+
 
 ## Authors
 
